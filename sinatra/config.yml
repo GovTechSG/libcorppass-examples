@@ -1,0 +1,14 @@
+MY_ENV:
+  metadata_directory: 'config/metadata'
+  encryption_key: 'config/saml_key.pem'
+  signing_key: 'config/saml_key.pem'
+  idp_entity: 'http://idp.example.com/idp'
+  sp_entity: 'http://sp.example.com/sp'
+  artifact_resolution_service_url_index: 0
+  failure_app: 'ExampleFailureApp'
+  failure_action: 'unauthorized'
+  provider: 'CorpPass::Providers::Stub'
+  timeout: 1800
+  session_max_lifetime: 86400
+  eservice_id: 'ESERVICE'
+  slo_enabled: true
